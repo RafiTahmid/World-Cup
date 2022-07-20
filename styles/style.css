@@ -21,7 +21,7 @@ body {
 
 p {
   color: white;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
 }
 
 .top-banner img {
@@ -31,7 +31,7 @@ p {
 }
 
 .watch-live {
-  border-radius: 7px;
+  border-radius: 10px;
   text-decoration: none;
   background-color: red;
   padding: 7px 13px;
@@ -82,7 +82,8 @@ p {
   margin-left: 90px;
 }
 
-.buttons {
+.button {
+  padding-bottom: 20px;
 }
 
 .reference {
@@ -93,34 +94,45 @@ p {
   border-color: brown;
   padding: 20px;
   border-width: 50px;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: white;
 }
 
 .thumbnail {
-  width: 100%;
+  /* width: 100%; */
   border-radius: 10px;
 }
 
 .thumbnail-img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
 .sum-box {
-  margin-left: 5%;
+  margin-left: 5px;
+  padding-top: 30px;
+}
+
+.transfer {
+  padding-top: 20px;
+  margin-left: 1em;
 }
 
 div.icon-shortcut p {
-  padding-left: 6%;
+  padding-left: 6px;
+  color: black;
+}
+
+div.blog-pera p {
+  color: black;
 }
 
 .icon-shortcut {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  column-gap: 5px;
+  column-gap: 70px;
   /* padding-bottom: 40%; */
   max-width: 40%;
 }
@@ -152,10 +164,60 @@ div.icon-shortcut p {
   justify-items: center;
   align-items: center;
   align-content: center;
-  margin-top: 30px;
+  margin-top: 160px;
+  margin-left: 30px;
+  margin-right: 50px;
 }
 
 .blog {
   width: 100%;
+  border: 2px solid black;
   border-radius: 10px;
+}
+
+.mid-view {
+  display: flex;
+}
+
+hr {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 3px;
+}
+
+.footer {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 20em;
+  margin: 90px 45px 90px 90px;
+  background-color: cadetblue;
+}
+
+.goal {
+  height: 10%;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.footer-info {
+  height: 10%;
+  color: black;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  padding-left: 27%;
+  padding-top: 20px;
+}
+
+.footer-icon {
+  color: black;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  padding-left: 46%;
+  padding-top: 20px;
+  font-size: 35px;
 }
