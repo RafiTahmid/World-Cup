@@ -48,7 +48,7 @@ p {
 }
 
 .top-left-section {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .nav {
@@ -111,6 +111,7 @@ div.icon-shortcut p {
 
 div.blog-pera p {
   color: black;
+  padding-left: 10px;
 }
 
 .icon-shortcut {
@@ -120,6 +121,7 @@ div.blog-pera p {
   column-gap: 70px;
   /* padding-bottom: 40%; */
   max-width: 40%;
+  padding-left: 10px;
 }
 
 .icon-time {
@@ -151,7 +153,7 @@ div.blog-pera p {
   align-content: center;
   margin-top: 160px;
   margin-left: 30px;
-  margin-right: 50px;
+  margin-right: 80px;
 }
 
 .blog {
@@ -214,8 +216,36 @@ hr {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .watch-live {
-    align-items: flex-start;
-    justify-content: flex-start;
+  .top-header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .top-banner {
+    align-items: center;
+    justify-content: center;
+    margin-right: 100%;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 700px) {
+  .article-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .top-banner {
+    align-items: center;
+    justify-content: center;
+    margin-right: 100%;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
   }
 }
