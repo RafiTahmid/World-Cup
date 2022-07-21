@@ -36,6 +36,11 @@ p {
   background-color: red;
   padding: 7px 13px;
   font-size: 25px;
+  transition: transform 1s;
+}
+
+.top-header:hover {
+  transform: skewX(3deg);
 }
 
 #anchor {
@@ -200,4 +205,17 @@ hr {
   padding-left: 46%;
   padding-top: 20px;
   font-size: 35px;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 576px) {
+  .article-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .watch-live {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 }
